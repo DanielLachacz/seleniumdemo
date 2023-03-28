@@ -19,7 +19,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
-    public void logInWithInvalidPassword() {
+    public void logInWithInvalidDataTest() {
         WebElement error = new HomePage(driver)
                 .openMyAccountPage()
                 .registerUserInvalidData("test30@test.pl", "te@test.pl")
